@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Data and Artifacts
+DATA/
+# We keep the model artifacts for this POC
+# *.pkl
+
+# Javascript
+node_modules/
+build/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
