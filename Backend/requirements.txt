@@ -9,6 +9,7 @@ gunicorn>=21.2.0
 # Database
 sqlmodel>=0.0.22
 pg8000>=1.30.0
+psycopg2-binary>=2.9.9
 
 # Authentication
 python-jose[cryptography]>=3.3.0
@@ -25,4 +26,3 @@ numpy>=1.24.0
 pandas>=2.0.0
 optuna>=3.0.0
 apscheduler>=3.10.0
-
